@@ -102,6 +102,7 @@ openexr_define_library(OpenEXRCore
 
   DEPENDENCIES
     Imath::Imath
+    ${EXR_DEFLATE_DEPS}
   )
 
 if (DEFINED EXR_DEFLATE_LIB)
